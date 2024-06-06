@@ -43,7 +43,7 @@ body {
 }
 
 #imagem_fundo1 {
-    background-image: url('img/amazonia.jpg');
+    background-image: url('amazonia.jpg');
     background-size: cover;
     color: white;
     text-align: center;
