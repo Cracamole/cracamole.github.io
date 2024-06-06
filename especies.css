@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#cabecalho {
+    background-color: #004d40;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+#logodiv {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 50px;
+}
+
+#menu {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#imagem_fundo1 {
+    background-image: url('img/amazonia.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-position: center;
+}
+
+#titulo1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#subtitulo1 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#acao1 {
+    background-color: #32CD32;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.destaque2, .destaque, .selecao {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.coluna {
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+#Projeto .coluna {
+    width: 48%;
+}
+
+#Animais .coluna {
+    width: 22%;
+}
+
+#Habitats .coluna {
+    width: 30%;
+}
+
+#Sobre .coluna {
+    width: 48%;
+}
+
+.icone {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.imgeco {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3 {
+    color: #004d40;
+}
+
+h4 {
+    color: #00796b;
+}
+
+p {
+    color: #666;
+}
+
+a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#menu a:hover, #acao1:hover {
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
